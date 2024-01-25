@@ -25,7 +25,15 @@ planets_df[positions, ]
 **no parentheses** 
 my_list <- list( vec = my_vector, mat = my_matrix, df = my_df)
 
-#sum function on logical vectors calculates number of TRUE's.
+**sum function on logical vectors calculates number of TRUE's.**
+**very important use args(sd) for eg to find arguments of a function in R**
+Remeber this template for function creations. 
+my_fun <- function(arg1, arg2) {
+  body
+}
+
+
+
 
 **For Loop**
 for ( i in 1:length(cities)) {
