@@ -31,6 +31,12 @@ Remeber this template for function creations.
 my_fun <- function(arg1, arg2) {
   body
 }
+##remember benchmarking code##
+library(microbenchmark)
+# Compare the two functions
+compare <- microbenchmark(read.csv("movies.csv"), readRDS("movies.rds"))
+# Print compare
+
 
 
 
